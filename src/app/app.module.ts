@@ -6,10 +6,16 @@ import { routing,
          appRoutingProviders }  from './app.routing';
 
 import { AppComponent } from './app.component';
+import { RequestAccessComponent } from './request-access/request-access.component';
+import { SignupComponent } from './signup/signup.component';
+import { SuccessComponent } from './success/success.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RequestAccessComponent,
+    SignupComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule,
